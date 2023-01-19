@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@adobe/css-tools@npm:^4.0.1":
+  version: 4.0.2
+  resolution: "@adobe/css-tools@npm:4.0.2"
+  checksum: f9ffd602fcf2456888fd8ca7b121e1c6169f512c56a6b98ab7ec64013ab90dd062f458bac16292150a7c6a08c1cd58ef80b5cad018c3684cf0a4192b57b5ea32
+  languageName: node
+  linkType: hard
+
 "@ardatan/aggregate-error@npm:0.0.6":
   version: 0.0.6
   resolution: "@ardatan/aggregate-error@npm:0.0.6"
@@ -3503,20 +3510,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.14.1":
-  version: 5.14.1
-  resolution: "@testing-library/jest-dom@npm:5.14.1"
+"@testing-library/jest-dom@npm:^5.16.5":
+  version: 5.16.5
+  resolution: "@testing-library/jest-dom@npm:5.16.5"
   dependencies:
+    "@adobe/css-tools": ^4.0.1
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
-    aria-query: ^4.2.2
+    aria-query: ^5.0.0
     chalk: ^3.0.0
-    css: ^3.0.0
     css.escape: ^1.5.1
     dom-accessibility-api: ^0.5.6
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: eeba37ba10be550bd9ab7dd0dda77d9011a96d9a4f75c70ed57d7bf120fe4126b251ccfb1444da1746c19773bbe4efbd96a0408f970d98c9cd1d399b2455d2c1
+  checksum: 94911f901a8031f3e489d04ac057cb5373621230f5d92bed80e514e24b069fb58a3166d1dd86963e55f078a1bd999da595e2ab96ed95f452d477e272937d792a
   languageName: node
   linkType: hard
 
@@ -11604,7 +11611,7 @@ __metadata:
   resolution: "gatsby-starter-material@workspace:."
   dependencies:
     "@testing-library/cypress": ^8.0.1
-    "@testing-library/jest-dom": ^5.14.1
+    "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^12.1.2
     "@types/jest": ^27.0.2
     "@types/node": ^16.11.4
@@ -11744,7 +11751,7 @@ __metadata:
   resolution: "gatsby-theme-material-demo@workspace:examples/material-demo"
   dependencies:
     "@testing-library/cypress": ^8.0.1
-    "@testing-library/jest-dom": ^5.14.1
+    "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^12.1.2
     "@types/jest": ^27.0.2
     "@types/node": ^16.11.4
@@ -11814,7 +11821,7 @@ __metadata:
     "@mui/material": ^5.8.7
     "@mui/utils": ^5.0.1
     "@reach/router": ^1.3.4
-    "@testing-library/jest-dom": ^5.14.1
+    "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^12.1.2
     "@testing-library/user-event": ^13.5.0
     "@types/babel__plugin-transform-runtime": ^7.9.2
